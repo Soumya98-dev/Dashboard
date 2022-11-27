@@ -1,0 +1,50 @@
+.activity {
+    margin-top: 20px ;
+    margin-left:180px;
+    border: 1px solid white;
+    width:85%;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+}
+
+.activity>.activity-heading {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.activity>.activity-heading>h2 {
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.activity>.activity-heading>p {
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: grey;
+    color: white;
+}
+
+.activity>hr {
+    color: rgba(255, 255, 255, 0.829);
+    margin: 10px 45px;
+}
+
+.activity>.activity-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.charts{
+    height:260px;
+    width:400px;
+}

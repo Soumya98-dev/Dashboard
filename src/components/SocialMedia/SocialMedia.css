@@ -1,0 +1,18 @@
+.socialmedia-menus>.socialmedia-icons {
+    display: flex;
+    align-items: center;
+}
+
+.socialmedia-menus>.socialmedia-icons>i {
+    margin-left: 10px;
+}
+
+.socialmedia-menus>.socialmedia-icons>h3 {
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.socialmedia-menus>h4 {
+    text-align: center;
+}

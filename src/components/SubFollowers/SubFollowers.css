@@ -1,0 +1,18 @@
+.subfollowers {
+    display: flex;
+    /* margin: 10px auto; */
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left:440px;
+}
+
+.subfollowers>.box {
+    border: 2px solid;
+    padding: 30px 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .subfollowers >  */

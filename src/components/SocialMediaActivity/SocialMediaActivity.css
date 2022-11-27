@@ -1,0 +1,29 @@
+.social-media-activity {
+    margin-left: 18px;
+}
+
+.social-media-activity>.graphs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.social-media-activity>h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: grey;
+}
+
+.social-media-activity>h4 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.social-media-activity>p {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
