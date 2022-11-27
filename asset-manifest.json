@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Soumya98-dev/Dashboard/static/css/main.134ab3b5.css",
+    "main.js": "/Soumya98-dev/Dashboard/static/js/main.6344de63.js",
+    "index.html": "/Soumya98-dev/Dashboard/index.html",
+    "main.134ab3b5.css.map": "/Soumya98-dev/Dashboard/static/css/main.134ab3b5.css.map",
+    "main.6344de63.js.map": "/Soumya98-dev/Dashboard/static/js/main.6344de63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.134ab3b5.css",
+    "static/js/main.6344de63.js"
+  ]
+}
