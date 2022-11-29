@@ -6,7 +6,7 @@ export default function SubFollowers({ count, title, image }) {
     <div className="subfollowers">
       <div
         className=" box fb"
-        style={{ backgroundColor: "blue", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#4267B2", color: "white" }}
       >
         <i className="fa-brands fa-facebook-f"></i>
         <div className="in-box">
@@ -16,7 +16,7 @@ export default function SubFollowers({ count, title, image }) {
       </div>
       <div
         className="box insta"
-        style={{ backgroundColor: "pink", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#bc2a8d", color: "white" }}
       >
         <i className="fa-brands fa-instagram"></i>
         <div className="in-box">
@@ -26,7 +26,7 @@ export default function SubFollowers({ count, title, image }) {
       </div>
       <div
         className="box pin"
-        style={{ backgroundColor: "red", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#c8232c", color: "white" }}
       >
         <i className="fa-brands fa-pinterest-p"></i>
         <div className="in-box">
@@ -36,27 +36,27 @@ export default function SubFollowers({ count, title, image }) {
       </div>
       <div
         className="box tweet"
-        style={{ backgroundColor: "lightBlue", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#00acee", color: "white" }}
       >
         <i className="fa-brands fa-twitter"></i>
         <div className="in-box">
           <h4>745</h4>
-          <h5>Followers</h5>
+          <h5 style={{ right: 12 }}>Followers</h5>
         </div>
       </div>
       <div
         className="box yt"
-        style={{ backgroundColor: "orangeRed", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#c4302b", color: "white" }}
       >
         <i className="fa-brands fa-youtube"></i>
         <div className="in-box">
           <h4>2,520</h4>
-          <h5>Subscribers</h5>
+          <h5 style={{ right: 12 }}>Subscribers</h5>
         </div>
       </div>
       <div
         className="box arrow"
-        style={{ backgroundColor: "blue", color: "white", fontSize: 25 }}
+        style={{ backgroundColor: "#05A0D1", color: "white" }}
       >
         <i className="fa-solid fa-arrow-trend-up"></i>
         <div className="in-box">

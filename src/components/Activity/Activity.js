@@ -27,7 +27,7 @@ const dataFB = {
   datasets: [
     {
       data: [10, 1, 3, 5, 2, 3, 1, 2, -1, -2, 7, 3, 4, 2, 1, 5],
-      backgroundColor: ["blue"],
+      backgroundColor: ["#4267B2"],
       borderWidth: 1.1,
     },
   ],
@@ -55,7 +55,7 @@ const dataInsta = {
   datasets: [
     {
       data: [10, 1, 3, 5, 2, 3, 1, 2, -1, -2, 7, 3, 4, 2, 1, 5],
-      backgroundColor: ["purple"],
+      backgroundColor: ["#bc2a8d"],
     },
   ],
 };
@@ -81,7 +81,7 @@ const dataPin = {
   datasets: [
     {
       data: [10, 1, 3, 5, 2, 3, 1, 2, -1, -2, 7, 3, 4, 2, 1, 5],
-      backgroundColor: ["red"],
+      backgroundColor: ["#c8232c"],
     },
   ],
 };
@@ -107,7 +107,7 @@ const dataTweet = {
   datasets: [
     {
       data: [10, 1, 3, 5, 2, 3, 1, 2, -1, -2, 7, 3, 4, 2, 1, 5],
-      backgroundColor: ["skyblue"],
+      backgroundColor: ["#00acee"],
     },
   ],
 };
@@ -133,7 +133,7 @@ const dataYoutube = {
   datasets: [
     {
       data: [1, 1, 3, 5, -2, 3, 1, 2, 1, 2, 7, 3, 4, 2, 5, 5],
-      backgroundColor: ["orangered"],
+      backgroundColor: ["#c4302b"],
     },
   ],
 };
@@ -162,7 +162,7 @@ const dataAlexa = {
       data: [0, 7, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
       borderColor: "rgb(53, 162, 235)",
       // backgroundColor: ["blue"],
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      backgroundColor: "#05A0D1",
     },
   ],
 };
@@ -180,55 +180,57 @@ export default function Activity() {
           <SocialMediaActivity
             name="Facebook"
             count="+185"
-            color="blue"
+            color="#4267B2"
             each="6/day"
             chartType={"bar"}
             data={dataFB}
+            value={"0.59"}
           />
           <SocialMediaActivity
             name="Instagram"
-            color="purple"
+            color="#bc2a8d"
             count="+1,454"
             each="48/day"
             chartType={"bar"}
             data={dataInsta}
+            value={"13.76"}
           />
           <SocialMediaActivity
             name="Pinterest"
-            color="red"
+            color="#c8232c"
             count="+1,436"
             each="48/day"
             chartType={"bar"}
             data={dataPin}
+            value={"11.2"}
           />
           <SocialMediaActivity
             name="Twitter"
-            color="skyblue"
+            color="#00acee"
             count="+46"
             each="2/day"
             chartType={"bar"}
             data={dataTweet}
+            value={"6.31"}
           />
           <SocialMediaActivity
             name="Youtube"
-            color="orangered"
+            color="#c4302b"
             count="+209"
             each="7/day"
             chartType={"bar"}
             data={dataYoutube}
+            value={"8.53"}
           />
           <SocialMediaActivity
             name="Alexa"
             count="-10,079"
             each="-438/day"
             chartType={"area"}
-            color="rgba(53, 162, 235)"
+            color="#05A0D1"
             data={dataAlexa}
           />
         </div>
-        {/* <div className="charts">
-          <Bar options={options} data={data} />
-        </div>   */}
       </div>
     </>
   );

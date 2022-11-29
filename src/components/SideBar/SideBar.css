@@ -1,11 +1,7 @@
 .sidebar {
     display: flex;
     position: absolute;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    /* bottom: 150px; */
     bottom: 10px;
-    /* top:10px; */
     align-items: center;
     justify-content: space-between;
     margin-top: 70px;

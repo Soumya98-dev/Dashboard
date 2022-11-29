@@ -11,8 +11,12 @@
     color: grey;
     text-transform: uppercase;
     font-weight: 600;
+    margin-left:10px;
 }
 
 .socialmedia-menus>h4 {
     text-align: center;
+    font-size:30px;
+    font-weight:600;
+    opacity: 0.8;
 }

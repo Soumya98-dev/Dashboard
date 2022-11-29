@@ -27,3 +27,30 @@
     margin-top: 10px;
     font-size: 18px;
 }
+
+.social-media-activity>.social-media-activity-label{
+    text-align: center;
+}
+
+.social-media-activity > .social-media-activity-label > h3{
+    text-transform: uppercase;
+    color:grey;
+    font-size:22px;
+    font-weight:900;
+}
+
+.social-media-activity>.social-media-activity-label> h4{
+    font-size: 35px;
+    opacity: 0.9;
+    margin-right:60px;
+    font-weight: 300;
+}
+
+.social-media-activity>.social-media-activity-label>p{
+    font-size: 20px;
+    margin-left:45px;
+}
+
+.social-media-activity-growth > span{
+    margin-left:25px;
+}

@@ -9,12 +9,15 @@ export default function SocialMediaActivity({
   data,
   chartType,
   color,
+  value,
 }) {
   return (
     <div className="social-media-activity">
-      <h3>{name}</h3>
-      <h4 style={{ color: color }}>{count}</h4>
-      <p style={{ color: color }}>{each}</p>
+      <div className="social-media-activity-label">
+        <h3>{name}</h3>
+        <h4 style={{ color: color }}>{count}</h4>
+        <p style={{ color: color }}>{each}</p>
+      </div>
       <div className="graphs">
         {chartType === "bar" ? (
           <Bar
@@ -86,6 +89,22 @@ export default function SocialMediaActivity({
               },
             }}
           />
+        )}
+      </div>
+      <div className="social-media-activity-growth">
+        {chartType === "bar" ? (
+          <span>
+            <span style={{ color: "grey", fontWeight: 600, opacity: 0.7 }}>
+              Growth
+            </span>
+            :
+            <span style={{ color: "#50C878", fontWeight: 900 }}>
+              <i class="fa-solid fa-arrow-up"></i>
+              {value}%
+            </span>
+          </span>
+        ) : (
+          ""
         )}
       </div>
     </div>
